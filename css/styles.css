@@ -1,24 +1,11 @@
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
 body {
   font-family: "Inter", sans-serif;
-}
-body .boxes {
-  display: flex;
-}
-body .boxes .box {
-  margin-left: 1em;
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-body .boxes .green {
-  margin-left: 1em;
-  background-color: green;
-  width: 100px;
-  height: 100px;
-}
-body .night .box {
-  background-color: blue;
-}
-body .night .green {
-  background-color: yellow;
 }

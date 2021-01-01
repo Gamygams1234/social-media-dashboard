@@ -1,26 +1,32 @@
+// primary colors
+$limeGreen: hsl(163, 72%, 41%);
+$brightRed: hsl(356, 69%, 56%);
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(208, 92%, 53%);
+$youtube: hsl(348, 97%, 39%);
+
+// dark theme
+$veryDarkBlue: hsl(230, 17%, 14%);
+$veryDarkBlueTopBg: hsl(232, 19%, 15%);
+$darkDesaturatedBlueCardBg: hsl(228, 28%, 20%);
+$darkDesaturatedBlueText: hsl(228, 34%, 66%);
+$whiteText: hsl(0, 0%, 100%);
+// light theme
+$whiteBg: hsl(0, 0%, 100%);
+$veryPaleBlueTopBg: hsl(225, 100%, 98%);
+$lightGreyishBlueCardBg: hsl(227, 47%, 96%);
+$darkGreyishBlueText: hsl(228, 12%, 44%);
+$veryDarkBlueText: hsl(230, 17%, 14%);
+
+.fw-400 {
+    font-weight: 400;
+}
+.fw-700 {
+    font-weight: 700;
+}
+
 body {
     font-family: "Inter", sans-serif;
-    .boxes {
-        display: flex;
-        .box {
-            margin-left: 1em;
-            width: 100px;
-            height: 100px;
-            background-color: red;
-        }
-        .green {
-            margin-left: 1em;
-            background-color: green;
-            width: 100px;
-            height: 100px;
-        }
-    }
-    .night {
-        .box {
-            background-color: blue;
-        }
-        .green {
-            background-color: yellow;
-        }
+    .main {
     }
 }
