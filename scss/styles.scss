@@ -1,0 +1,26 @@
+body {
+    font-family: "Inter", sans-serif;
+    .boxes {
+        display: flex;
+        .box {
+            margin-left: 1em;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .green {
+            margin-left: 1em;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .night {
+        .box {
+            background-color: blue;
+        }
+        .green {
+            background-color: yellow;
+        }
+    }
+}
