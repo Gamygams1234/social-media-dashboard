@@ -1,9 +1,9 @@
-var button = document.getElementById("btn");
-var red = document.getElementsByClassName('boxes');
 
+const main = document.getElementsByClassName('main');
+const checkbox = document.getElementById("night-checkbox");
 
-button.addEventListener("click", function() {
+checkbox.addEventListener("change", function() {
 
-    red[0].classList.toggle("night");
+    main[0].classList.toggle("light-theme");
 
   });
