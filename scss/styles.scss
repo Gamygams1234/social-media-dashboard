@@ -58,7 +58,7 @@ $veryDarkBlueText: hsl(230, 17%, 14%);
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: $veryDarkBlueTopBg;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -254,6 +254,9 @@ body {
     }
     .light-theme {
         background-color: $whiteBg;
+        .slider:before {
+            background-color: $whiteBg;
+        }
         hr {
             border-top: 2px solid #848bab;
         }

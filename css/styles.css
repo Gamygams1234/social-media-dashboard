@@ -39,7 +39,7 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #1f212e;
   transition: 0.4s;
 }
 
@@ -228,6 +228,9 @@ body .main .dashboard .main-grid .instagram::before {
   background: linear-gradient(to right, #fdc468, #df4996);
 }
 body .light-theme {
+  background-color: white;
+}
+body .light-theme .slider:before {
   background-color: white;
 }
 body .light-theme hr {
