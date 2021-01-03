@@ -46,7 +46,7 @@ $veryDarkBlueText: hsl(230, 17%, 14%);
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }

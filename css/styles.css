@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background: linear-gradient(90deg, #378fe6, #3eda82);
   transition: 0.4s;
 }
 
